@@ -1,0 +1,105 @@
+html {
+  font-size: 62.5%; }
+
+ul {
+  list-style: none; }
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+*, *::after, *::before {
+  box-sizing: border-box; }
+
+.l-inline {
+  display: inline; }
+
+.l-flex {
+  display: flex; }
+
+.m-button, .m-button_black, .m-button_green {
+  border-radius: 4px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center; }
+  .m-button_black {
+    color: white;
+    background-color: black; }
+  .m-button_green {
+    color: white;
+    background-color: green; }
+
+.header__content {
+  padding: 4px 8px;
+  height: 120px;
+  border-bottom: 1px solid gray; }
+  .header__content .header__top-message {
+    padding-bottom: 4px;
+    background-color: yellow; }
+  .header__content .header__inner {
+    height: 64px; }
+    .header__content .header__inner .header__logo {
+      background-color: yellow;
+      margin-right: 16px;
+      font-size: 1.6rem;
+      align-items: center; }
+    .header__content .header__inner .menu__container {
+      background-color: yellow; }
+    .header__content .header__inner .menu__list {
+      height: 100%;
+      align-items: center; }
+    .header__content .header__inner .menu__item {
+      margin-right: 8px; }
+    .header__content .header__inner .button__container {
+      align-items: center;
+      justify-content: flex-end;
+      flex-grow: 1; }
+      .header__content .header__inner .button__container .header__button {
+        width: 140px; }
+        .header__content .header__inner .button__container .header__button:first-child {
+          margin-right: 8px; }
+
+/*# sourceMappingURL=style.css.map */

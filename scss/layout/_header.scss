@@ -1,0 +1,46 @@
+.header__content{
+  padding: 4px 8px;
+  height: 120px;
+  border-bottom: 1px solid gray;
+  .header__top-message{
+    padding-bottom: 4px;
+    background-color: yellow;
+  }
+  .header__inner{
+    height: 64px;
+    .header__logo{
+      background-color: yellow;
+      margin-right: 16px;
+      font-size: 1.6rem;
+      align-items: center;
+    }
+  
+    .menu{
+      &__container{
+        background-color: yellow;
+      }
+
+      &__list{
+        height: 100%;
+        align-items: center;
+      }
+
+      &__item{
+        margin-right: 8px;
+      }
+    }
+
+    .button__container {
+      align-items: center;
+      justify-content: flex-end;
+      flex-grow: 1;
+
+      .header__button {
+        width: 140px;
+        &:first-child {
+          margin-right: 8px;
+        }
+      }
+    }
+  }
+}

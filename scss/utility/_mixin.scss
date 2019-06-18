@@ -1,0 +1,5 @@
+@mixin vender-prefix($name, $value) {
+  @each $prefix in $prefix {
+    #{$prefix}#{$name}: $value;
+  }
+}

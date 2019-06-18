@@ -1,0 +1,18 @@
+.m-button {
+  border-radius: 4px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+
+  &_black {
+    @extend .m-button;
+    color: white;
+    background-color: black;
+  }
+
+  &_green {
+    @extend .m-button;
+    color: white;
+    background-color: green;
+  }
+}
